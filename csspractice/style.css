@@ -1,0 +1,77 @@
+/* This is a css comment */
+
+/* h1 is your selector */
+/* global is a good analogy for this approach */
+
+#purple {
+    text-align:left;
+    color:purple;
+}
+
+h1 {
+    /* this is a property */
+    text-align: center;
+}
+
+.blue {
+    /* declaration */
+    /* color is a property, blue is a value */
+    color:blue;
+}
+
+.blue:hover{
+    color:red;
+}
+
+.green { color: green; text-align: center}
+
+
+.red {
+    color:red;
+}
+
+/* these are psuedo classes */
+a:link {
+    color:teal;
+}
+
+a:visited {
+    color:brown;
+}
+
+a:hover {
+    color:yellow;
+}
+
+a:active {
+    color:red;
+}
+
+/* this is a combinator */
+div p {
+    color:white;
+}
+
+/* this is a multiple selector */
+/* recall that your classes and ids can be called anything */
+.monkey, p, main {
+    background-color:#ff66cc;
+}
+
+#test-div {
+    /* to reiterate, below is a declaration */
+    /* composed of a property and a value */
+    padding:30px;
+    margin:30px;
+    background-color:forestgreen;
+    border: 5px dotted red;
+}
+
+#test-div span {
+    background-color:goldenrod;
+}
+
+
+/* for color values you can input hex in place of references */
+/* black is FFFFFF */
+
