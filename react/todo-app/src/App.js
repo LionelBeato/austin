@@ -5,6 +5,18 @@ import { useState } from 'react';
 
 function App() {
 
+  // const myFunc = (a, b, c, ...rest) => {
+
+  // }
+
+  // function sum(x, y, z) {
+  //   return x + y + z; 
+  // }
+
+  // const numbers = [1, 2, 3];
+
+  // console.log(sum(...numbers));
+
   const [value, setValue] = useState('');
   const [todos, setTodos] = useState([]);
 
