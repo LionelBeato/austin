@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Name from './components/Name';
 import Hobby from './components/Hobby';
@@ -13,7 +13,7 @@ function App() {
   // one that will show a fun fact
 
   return (
-    <div>
+    <div className="centered color-text">
       <Name yourName="My name is Lionel." />
       <Hobby />
       <FunFact />

@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
+import '../styles/Name.css';
 
 const Name = ({ yourName }) => {
 
     const [state, setState] = useState('');
 
     return(
-        <p>{yourName}</p>
+        <p className="name">{yourName} 🦁</p>
     )
 }
 
