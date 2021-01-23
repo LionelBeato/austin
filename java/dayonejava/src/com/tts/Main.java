@@ -47,6 +47,8 @@ public class Main {
     public char myChar;
     public byte myByte;
 
+
+
     // this is my main method
     // this serves as my "entry point"
     // my intrepreter will look for this method to have access to my program
