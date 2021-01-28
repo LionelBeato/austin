@@ -76,10 +76,50 @@ There are four major principles associated with OOP. These principle are critica
    
     In the example above, `myChild` will only have the associated properties of the Parent class despite being initialized as a `Child`. This can be thought of as a form of abstraction since any `Child` specific functionality is completely removed from whatever is operating with the `myChild` instance. In essence, `myChild` is both of type  `Parent` and `Child` at once. 
 
-## Notes 
+## Practice
+
+1. Make a class that will serve as a parent in a parent-child relationship. Think of a real world example for this class. For example, `Animal` can be a parent to `Dog`, `Game` can be a parent to `Solitaire`, etc. Give the class at least three private fields. Give it getters and setters and a constructor with the three fields as parameters. 
+
+    ```java
+   public class Parent {
+    
+        // three private fields 
+        // constructor
+        // getters and setters
+   
+   }
+   ```
+
+2. Make a child class for your parent class and define the parent-child relationship. Remember that the child has utitlize the keyword `extends`. Give the child class at least 2 fields and a unique method. 
+
+    ```java
+   
+   public class Child extends Parent {
+   
+        // code goes here 🙂
+   
+   }
+
+   ```
+
+3. Make one more child class that will extend your first child class! How specific can you get with your children? Can the new child class have unique fields and properties as well? Try to implement unique properties for this child. 
+
+    ```java
+   
+   public class GrandChild extends Child {
+   
+        // code goes here 🙂
+   
+   }
+
+   ```
+
+## Notes
 
 - _Gradle_ is what's known as a _build tool_. It allows for easy configuration, building, code-sharing, and testing. It also provides easy tooling for dev-ops.
-- If you find it difficult recalling the four principles, use my mnemonic: ***All Eagles Inherit Plumage***. 
+- If you find it difficult recalling the four principles, use my mnemonic: ***All Eagles Inherit Plumage***.
+
+
 
 ## Links 
 
