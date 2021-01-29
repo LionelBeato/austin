@@ -1,0 +1,14 @@
+com/tts/main/objects/AnimalBean.java
+ com.tts.main.objects.AnimalBean
+com/tts/main/objects/Utility.java
+ com.tts.main.objects.Utility
+com/tts/main/objects/AnimalPojo.java
+ com.tts.main.objects.AnimalPojo
+com/tts/main/objects/Lamp.java
+ com.tts.main.objects.Lamp
+com/tts/main/objects/Wolf.java
+ com.tts.main.objects.Wolf
+com/tts/main/Main.java
+ com.tts.main.Main
+com/tts/main/objects/AbstractAnimal.java
+ com.tts.main.objects.AbstractAnimal
