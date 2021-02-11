@@ -32,17 +32,10 @@ public class Deadlock {
          final Friend gaston = new Friend("Gaston");
 
          new Thread(() -> alphonse.bow(gaston)).start();
-         new Thread(() -> {
-             try {
-                 Thread.sleep(4000);
-             } catch (InterruptedException e) {
-                 e.printStackTrace();
-             }
-             gaston.bow(alphonse);
-         }).start();
+         new Thread(() -> gaston.bow(alphonse)).start();
+         // we can add a sleep method call to gaston's runnable in order to circumvent the deadlock
          // this code will be reached because the main thread is still running concurrently
          System.out.println("They stopped bowing...");
-
     }
 
 
