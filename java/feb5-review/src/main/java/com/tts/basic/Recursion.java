@@ -3,6 +3,8 @@ package com.tts.basic;
 public class Recursion {
 
 
+    // recursion describes when a method/function
+    // calls itself in its implementation
     public static void addOne(int x) {
         // i want to keep adding one to x
         // until x is 10
@@ -12,11 +14,8 @@ public class Recursion {
             addOne(x + 1);
         }
     }
-
     public static void main(String[] args) {
-
         addOne(1);
-
     }
 
 }
