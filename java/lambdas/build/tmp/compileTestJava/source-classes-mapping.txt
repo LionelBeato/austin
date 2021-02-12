@@ -1,0 +1,15 @@
+com/tts/genericsandlambdas/generic/CalculatorImplTest.java
+ com.tts.genericsandlambdas.generic.CalculatorImplTest
+com/tts/genericsandlambdas/interfaces/CameraTest.java
+ com.tts.genericsandlambdas.interfaces.CameraTest
+com/tts/genericsandlambdas/lambdas/DoableTest.java
+ com.tts.genericsandlambdas.lambdas.DoableTest
+ com.tts.genericsandlambdas.lambdas.DoableTest$1
+com/tts/genericsandlambdas/lambdas/SleepableTest.java
+ com.tts.genericsandlambdas.lambdas.SleepableTest
+ com.tts.genericsandlambdas.lambdas.SleepableTest$1
+ com.tts.genericsandlambdas.lambdas.SleepableTest$2
+com/tts/genericsandlambdas/interfaces/WiggleableTest.java
+ com.tts.genericsandlambdas.interfaces.WiggleableTest
+com/tts/genericsandlambdas/lambdas/StreamTest.java
+ com.tts.genericsandlambdas.lambdas.StreamTest

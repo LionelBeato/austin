@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.tts.genericsandlambdas.lambdas.StreamTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-12T17:25:37" hostname="Lionels-MacBook-Air.local" time="0.029">
+  <properties/>
+  <testcase name="lastTest()" classname="com.tts.genericsandlambdas.lambdas.StreamTest" time="0.029"/>
+  <system-out><![CDATA[453
+321
+3321
+7689
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
