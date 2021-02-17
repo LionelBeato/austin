@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.tts.oop.MugTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-05T16:46:12" hostname="Lionels-MacBook-Air.local" time="0.048">
-  <properties/>
-  <testcase name="test()" classname="com.tts.oop.MugTest" time="0.048"/>
-  <system-out><![CDATA[[Mug{material='ceramic', volumeInOunces=8.0, hasHandle=true}]
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

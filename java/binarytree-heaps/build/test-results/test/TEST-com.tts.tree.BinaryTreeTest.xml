@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.tts.tree.BinaryTreeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-04T16:05:09" hostname="Lionels-MacBook-Air.local" time="0.033">
-  <properties/>
-  <testcase name="containsNodeTest()" classname="com.tts.tree.BinaryTreeTest" time="0.033"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
