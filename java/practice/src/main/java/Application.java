@@ -1,4 +1,11 @@
 
+// here are a few things that you absolutely need to know:
+// 0. Basic syntax, grammar, etc
+// 1. Whats a class, how to make one, and how to construct objects
+// 2. Whats an interface, how to utilize them, and why they're important
+// 3. Basic design patterns in Java
+// A. Testing
+
 // a class is a grouping of data
 // a class is considered a blueprint for your objects
 public class Application {
