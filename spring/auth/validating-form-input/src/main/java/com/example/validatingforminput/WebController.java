@@ -12,6 +12,13 @@ import javax.validation.Valid;
 @Controller
 public class WebController implements WebMvcConfigurer {
 
+    /*
+    *
+    * addViewControllers is an implemented method from the interface WebMvcConfigurer
+    *  It is mandated that an object of type ViewControllerRegistry is passed in (this is done by Spring)
+    * on our registry object, we method chain to set up a controller and view
+    *
+    * */
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/results")
@@ -23,6 +30,13 @@ public class WebController implements WebMvcConfigurer {
         return "form";
     }
 
+    /*
+    *
+    * The method below accepts an object of type PersonForm
+    * the @Valid annotation on personForm will allow personForm to be validated, checking field constraints
+    * BindingResult is an object that allows for error checking with the associated method .hasErrors()
+    *
+    * */
     @PostMapping("/")
     public String checkPersonInfo(@Valid PersonForm personForm, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {

@@ -1,6 +1,10 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <body>
+
+<!-- simple form from utilizing custom thymeleaf attributes
+    note that we are posting an object "personForm" at the endpoint "/"
+-->
 <form action="#" th:action="@{/}" th:object="${personForm}" method="post">
     <table>
         <tr>
