@@ -1,4 +1,4 @@
-# Authentication - 02/09/2021
+# Authentication - 02/26/2021
 
 _In Spring, there are many ways to implement authentication. Not only does Spring have its own security implementation, but it has access to third-party solutions as well. We'll be covering the solution known as OAuth._
 
@@ -20,5 +20,5 @@ OAuth is an authentication platform that allows you to login to services with es
 
 ## Links
 
--[Spring: Spring Security](https://spring.io/projects/spring-security)
--[Spring: OAuth2 Tutorial](https://spring.io/guides/tutorials/spring-boot-oauth2/)
+- [Spring: Spring Security](https://spring.io/projects/spring-security)
+- [Spring: OAuth2 Tutorial](https://spring.io/guides/tutorials/spring-boot-oauth2/)
