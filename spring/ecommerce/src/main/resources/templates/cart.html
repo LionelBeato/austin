@@ -82,8 +82,7 @@
                     th:action="@{/cart/update}"
                     method="post"
                     id="updateForm"
-                    th:if="${cart.size() > 0}"
-            >
+                    th:if="${cart.size() > 0}">
                 <!-- form doesn't support PATCH requests, but this tells Spring Boot to use @PatchMapping anyway. -->
                 <input type="hidden" name="_method" value="PATCH" />
                 <button type="submit" class="btn btn-primary">Update Cart</button>
@@ -92,18 +91,15 @@
         </div>
 
         <form action="/charge" method="POST" id="checkout-form">
-            <input
-                    type="hidden"
+            <input type="hidden"
                     th:value="${#numbers.formatCurrency(#aggregates.sum(list))}"
-                    name="amount"
-            />
-            <label
-            >Price:<span
-                    th:text="${#numbers.formatCurrency(#aggregates.sum(list))}"
-            /></label>
+                    name="amount"/>
+            <label>
+                Price:<span th:text="${#numbers.formatCurrency(#aggregates.sum(list))}"/>
+            </label>
             <!-- NOTE: data-key/data-amount/data-currency will be rendered by Thymeleaf -->
-            <script
-                    src="https://checkout.stripe.com/checkout.js"
+            <h1 th:text="${stripePublicKey}"></h1>
+            <script src="https://checkout.stripe.com/checkout.js"
                     class="stripe-button"
                     th:attr="data-key=${stripePublicKey},
                  data-amount=${amount},
@@ -112,10 +108,9 @@
                     data-description="Spring course checkout"
                     data-image="https://www.baeldung.com/wp-content/themes/baeldung/favicon/android-chrome-192x192.png"
                     data-locale="auto"
-                    data-zip-code="false"
-            ></script>
+                    data-zip-code="false">
+            </script>
         </form>
-
     </div>
 </main>
 
