@@ -1,5 +1,6 @@
 package com.tts.ecommerce.controller;
 
+import com.tts.ecommerce.model.ChargeRequest;
 import com.tts.ecommerce.model.Product;
 import com.tts.ecommerce.model.User;
 import com.tts.ecommerce.service.ProductService;
@@ -48,6 +49,8 @@ public class CartController {
     public String showCart(Model model) {
         model.addAttribute("amount", 100);
         model.addAttribute("stripePublicKey", stripePublicKey);
+        model.addAttribute("currency", ChargeRequest.Currency.USD);
+
         System.out.println(model.getAttribute("stripePublicKey"));
         return "cart";
     }

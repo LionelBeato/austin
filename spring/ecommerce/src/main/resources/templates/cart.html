@@ -90,15 +90,16 @@
             <div th:if="${cart.size() == 0}">Nothing in your cart yet.</div>
         </div>
 
-        <form action="/charge" method="POST" id="checkout-form">
+        <form th:action="@{/charge}" method="POST" id="checkout-form">
+            <!--                    th:value="${#numbers.formatCurrency(#aggregates.sum(list))}"-->
             <input type="hidden"
-                    th:value="${#numbers.formatCurrency(#aggregates.sum(list))}"
-                    name="amount"/>
+                   th:value="${amount}"
+                   name="amount"/>
             <label>
                 Price:<span th:text="${#numbers.formatCurrency(#aggregates.sum(list))}"/>
             </label>
             <!-- NOTE: data-key/data-amount/data-currency will be rendered by Thymeleaf -->
-            <h1 th:text="${stripePublicKey}"></h1>
+            <h4 th:text="If you're seeing the amount, stripe is properly loaded: ${amount}"></h4>
             <script src="https://checkout.stripe.com/checkout.js"
                     class="stripe-button"
                     th:attr="data-key=${stripePublicKey},
