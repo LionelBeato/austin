@@ -4,7 +4,6 @@
 **/.gradle/**
 **/application-local.yml
 **/application-local.properties
-**/.mvn/**
 
 target/
 pom.xml.tag
