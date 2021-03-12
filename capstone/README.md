@@ -21,9 +21,9 @@ The project can be done in teams or in groups. The project will have to meet cer
 
 You should create a solid foundation for your project before writing a single line of code. See if you can pitch your project in a single sentence. Then get to brainstorming! What should the project do? What's the use case? Who's it for? What are the tools you will use? What are the dependencies for the project? What are your constraints? Write this all down and share it with your team if you have one! 
 
-> Thesis: An application that tracks a user's habits. 
-> This project will track a user's habits and encourages daily tracking via alerts.
-> This project will be built with Spring Boot for the backend and React for the frontend.  
+> - Thesis: An application that tracks a user's habits. 
+> - This project will track a user's habits and encourages daily tracking via alerts.
+> - This project will be built with Spring Boot for the backend and React for the frontend.  
 
 Once you have your foundation, expand on how you will solve any given problem that your project may want to solve. Tackle the biggest problems with the clearest solutions. Again, write these down and use them as the basis for your application. These will serve as your application's features. 
 
