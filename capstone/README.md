@@ -34,4 +34,10 @@ Use Spring Security
 
 4. Deployment and Presentation
 
-  Pick a hosting solution and deploy your application. It should be easily accesible by anyone with internet access. Once its deployed, you can easily present your application! 
+  Pick a hosting solution and deploy your application. It should be easily accesible by anyone with internet access. Once its deployed, you can easily present your application!
+
+## Resources
+
+- [Sprint Book](https://www.thesprintbook.com/)
+- [Helpful link]()
+- [Helpful link]()
