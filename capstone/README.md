@@ -21,11 +21,36 @@ The project can be done in teams or in groups. The project will have to meet cer
 
 You should create a solid foundation for your project before writing a single line of code. See if you can pitch your project in a single sentence. Then get to brainstorming! What should the project do? What's the use case? Who's it for? What are the tools you will use? What are the dependencies for the project? What are your constraints? Write this all down and share it with your team if you have one! 
 
-Once you have your foundation, expand on how you will solve any given problem that your project may want to solve. Tackle the biggest problems with the clearest solutions. Again, write these down and use them as the basis for your application. 
+> Thesis: An application that tracks a user's habits. 
+> This project will track a user's habits and encourages daily tracking via alerts.
+> This project will be built with Spring Boot for the backend and React for the frontend.  
+
+Once you have your foundation, expand on how you will solve any given problem that your project may want to solve. Tackle the biggest problems with the clearest solutions. Again, write these down and use them as the basis for your application. These will serve as your application's features. 
+
+> User accounts to keep track of input data. 
+> Daily alerts to encourage tracking of habits.
+> Smart wellness AI that intrepets user data.
+> Social functionality that allows users to share and discuss their habit tracking. 
 
 ### 2. Modeling
 
 You should have a solid outline of your project in text. Now, try to have a visual representation of your project's architecture that is as informative as possible. Diagram your packages and classes with the associated methods and fields. Define relationships in your code between classes and objects. These drawings will serve as a helpful representation of your project.
+
+```
+User Class
+------
+private Long id; 
+private String username;
+private List<Habit> HabitList; 
+
+
+Habit Class
+------
+private Long id;
+private String description; 
+private User associatedUser; 
+
+```
 
 ### 3. Implementation
 
@@ -37,4 +62,6 @@ Pick a hosting solution and deploy your application. It should be easily accesib
 
 ## Resources
 
+[Heroku: Get Started with Java](https://devcenter.heroku.com/articles/getting-started-with-java)
 [Sprint Book](https://www.thesprintbook.com/)
+
