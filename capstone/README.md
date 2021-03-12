@@ -1,4 +1,4 @@
-# Capstone Project
+#Capstone Project
 
 _Welcome to the end of the course! You will now create an application that will serve as your capstone project. Think of it as your thesis statement. It should present everything that you've learned so far in a concise and simple manner._ 
 
@@ -13,8 +13,7 @@ The project can be done in teams or in groups. The project will have to meet cer
 - Include a functioning backend that can make API calls. You can implement a database with RESTful endpoints. 
 - Be deployed and accessible via a web-link (the data does not have to be persistent).
 - **OPTIONAL**: Include some sort of third party API call (Google Maps, Weather, etc...).
-
-Use Spring Security
+- Use Spring Security or any security solution such as OAuth. 
 
 ## Outline
 
@@ -39,5 +38,3 @@ Use Spring Security
 ## Resources
 
 - [Sprint Book](https://www.thesprintbook.com/)
-- [Helpful link]()
-- [Helpful link]()
