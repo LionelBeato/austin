@@ -17,24 +17,24 @@ The project can be done in teams or in groups. The project will have to meet cer
 
 ## Outline
 
-1. Ideation
+### 1. Ideation
 
-  You should create a solid foundation for your project before writing a single line of code. See if you can pitch your project in a single sentence. Then get to brainstorming! What should the project do? What's the use case? Who's it for? What are the tools you will use? What are the dependencies for the project? What are your constraints? Write this all down and share it with your team if you have one! 
+You should create a solid foundation for your project before writing a single line of code. See if you can pitch your project in a single sentence. Then get to brainstorming! What should the project do? What's the use case? Who's it for? What are the tools you will use? What are the dependencies for the project? What are your constraints? Write this all down and share it with your team if you have one! 
 
-  Once you have your foundation, expand on how you will solve any given problem that your project may want to solve. Tackle the biggest problems with the clearest solutions. Again, write these down and use them as the basis for your application. 
+Once you have your foundation, expand on how you will solve any given problem that your project may want to solve. Tackle the biggest problems with the clearest solutions. Again, write these down and use them as the basis for your application. 
 
-2. Modeling
+### 2. Modeling
 
-  You should have a solid outline of your project in text. Now, try to have a visual representation of your project's architecture that is as informative as possible. Diagram your packages and classes with the associated methods and fields. Define relationships in your code between classes and objects. These drawings will serve as a helpful representation of your project.
+You should have a solid outline of your project in text. Now, try to have a visual representation of your project's architecture that is as informative as possible. Diagram your packages and classes with the associated methods and fields. Define relationships in your code between classes and objects. These drawings will serve as a helpful representation of your project.
 
-3. Implementation
+### 3. Implementation
 
-  Start writing out your code! Test your code as often as possible to make sure everything is working as intended. It is recommended that you write JUnit test cases wherever possible, but you will not be graded on this. 
+Start writing out your code! Test your code as often as possible to make sure everything is working as intended. It is recommended that you write JUnit test cases wherever possible, but you will not be graded on this. 
 
-4. Deployment and Presentation
+### 4. Deployment and Presentation
 
-  Pick a hosting solution and deploy your application. It should be easily accesible by anyone with internet access. Once its deployed, you can easily present your application!
+Pick a hosting solution and deploy your application. It should be easily accesible by anyone with internet access. Once its deployed, you can easily present your application!
 
 ## Resources
 
-- [Sprint Book](https://www.thesprintbook.com/)
+[Sprint Book](https://www.thesprintbook.com/)
