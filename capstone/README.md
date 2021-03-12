@@ -27,10 +27,10 @@ You should create a solid foundation for your project before writing a single li
 
 Once you have your foundation, expand on how you will solve any given problem that your project may want to solve. Tackle the biggest problems with the clearest solutions. Again, write these down and use them as the basis for your application. These will serve as your application's features. 
 
-> User accounts to keep track of input data. 
-> Daily alerts to encourage tracking of habits.
-> Smart wellness AI that intrepets user data.
-> Social functionality that allows users to share and discuss their habit tracking. 
+> - User accounts to keep track of input data. 
+> - Daily alerts to encourage tracking of habits.
+> - Smart wellness AI that intrepets user data.
+> - Social functionality that allows users to share and discuss their habit tracking. 
 
 ### 2. Modeling
 
@@ -62,6 +62,6 @@ Pick a hosting solution and deploy your application. It should be easily accesib
 
 ## Resources
 
-[Heroku: Get Started with Java](https://devcenter.heroku.com/articles/getting-started-with-java)
-[Sprint Book](https://www.thesprintbook.com/)
+- [Heroku: Get Started with Java](https://devcenter.heroku.com/articles/getting-started-with-java)
+- [Sprint Book](https://www.thesprintbook.com/)
 
