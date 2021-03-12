@@ -99,7 +99,7 @@
                 Price:<span th:text="${#numbers.formatCurrency(#aggregates.sum(list))}"/>
             </label>
             <!-- NOTE: data-key/data-amount/data-currency will be rendered by Thymeleaf -->
-            <h4 th:text="If you're seeing the amount, stripe is properly loaded: ${amount}"></h4>
+<!--            <h4 th:text="If you're seeing the amount, stripe is properly loaded: ${amount}"></h4>-->
             <script src="https://checkout.stripe.com/checkout.js"
                     class="stripe-button"
                     th:attr="data-key=${stripePublicKey},
