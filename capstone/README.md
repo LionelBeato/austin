@@ -1,4 +1,4 @@
-#Capstone Project
+# Capstone Project
 
 _Welcome to the end of the course! You will now create an application that will serve as your capstone project. Think of it as your thesis statement. It should present everything that you've learned so far in a concise and simple manner._ 
 
